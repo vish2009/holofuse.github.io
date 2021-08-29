@@ -394,7 +394,7 @@ hr {
 @media screen and (min-width: 375px) {
   #googleMap {
     height: 350px;
-    width: 340px;
+    width: 350px;
   }
   .map_header {
     float: left;
