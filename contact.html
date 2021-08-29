@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holofuse</title>
+
+    <!-- common linking -->
+    <link rel="stylesheet" href="common/bootstrap.min.css">
+    <script src="common/jquery.min.js"></script>
+    <script src="common/bootstrap.min.js"></script>
+    <!-- font awsome -->
+    <!-- please keep webfonts folder in root directory for font awsome to work-->
+    <link rel="stylesheet" href="common/fontawsome.css">
+    <title>Contact</title>
+
+
+
+
+    <style>
+        .row-style{
+            margin: 10px 20px;
+        }
+
+
+        .send-button{
+            width: 100%;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <section><br><br>
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- form -->
+                <div class="col-md-4 col-sm-6">
+                    <h1>Contact us</h1>
+                    <form id="contact-form" class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                            </div>
+                        </div>
+                    
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                            </div>
+                        </div>
+                    
+                        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea><br>
+                        
+                        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                            <div>
+                            <span class="send-text">SEND</span>
+                            </div>
+                        
+                        </button>
+                        </form><br>
+                </div>
+
+
+
+
+                <!-- socal and contact -->
+                <div class="col-md-4 col-sm-6"><br><br><br><br>
+                    <div class="">
+                        <ul class="contact-list">
+                          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Nanded, Maharashtra</span></i></li>
+                          
+                          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:(+91-9673425099)" title="Give me a call">(+91) 9673425099</a></span></i></li>
+                          
+                          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:holofusetechnologies@gmail.com" title="Send me an email">hello@holofuse.in</a></span></i></li>
+                          
+                        </ul>
+                
+                        <hr>
+                        <ul class="social-media-list">
+                          <li><a href="https://m.facebook.com/arspacebattles/" target="_blank" class="contact-icon">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                          </li>
+                          <li><a href="#" target="_blank" class="contact-icon">
+                            <i class="fab fa-twitter" aria-hidden="true"></i></a>
+                          </li>
+                          <li><a href="https://www.instagram.com/arspacebattles/" target="_blank" class="contact-icon">
+                            <i class="fab fa-instagram" aria-hidden="true"></i></a> 
+                          </li>
+                          <li><a href="https://www.linkedin.com/company/ar-space-battles-ar-game" target="_blank" class="contact-icon">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                          </li>       
+                        </ul>
+                        <hr>
+                      
+                
+                        <div class="copyright">Thank you for connecting with Holofuse</div>
+                
+                      </div>
+                    
+                    
+                    
+                    <br><br><br><br><br>
+                </div>
+
+
+                <!-- map -->
+                <div class="col-md-4 col-sm-6">
+                    <div style="width: auto;height: 200px;background-color: blue;"></div><br>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
