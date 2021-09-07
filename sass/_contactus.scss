@@ -6,9 +6,10 @@ height: 100%;
 .section-header {
 margin: 0 auto;
 padding: 40px 0 10px 15px;
-font: 300 45px 'Oswald', sans-serif;
+font: 50px 'Oswald', sans-serif;
 color: #fff;
 letter-spacing: 1px;
+font-family: Helvetica;
 }
 
 .map_header{
@@ -32,7 +33,7 @@ position: relative;
 .form-horizontal {
 /*float: left;*/
 max-width: 400px;
-font-family: 'Lato';
+font-family: Heveltica;
 font-weight: 400;
 }
 
@@ -278,12 +279,14 @@ border-color: rgba(255,255,255,.6);
 
 @media screen and (min-width: 375px){
     #googleMap{
-        height: 350px;
-        width: 340px;
+        margin-left: 10px;
+        height: 330px;
+        width: 330px;
     }
 
     .map_header{
         float: left;
+        margin-left: 20px;
         font-size: 50px;
     }
 
@@ -357,6 +360,17 @@ border-color: rgba(255,255,255,.6);
     }
 }
 
+
+
+.section-header{
+    font-family: haveltica;
+    font-weight: 300;
+}
+
+.map_header{
+    font-family: haveltica;
+    font-weight: 300;
+}
 
 
 

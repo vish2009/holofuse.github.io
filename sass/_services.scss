@@ -34,8 +34,19 @@
   }
 
 
-
-
   .service-heading{
+    color: $primary-heading-color;
+  }
+
+  // #services{
+    
+  //   background-color: #DF73FF;
+
+  // }
+
+
+  .service-section-heading{
+    text-align: center;
+    padding: 20px 0px 15px 0px;
     color: $primary-heading-color;
   }
