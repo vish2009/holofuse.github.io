@@ -470,7 +470,7 @@ hr {
   font-weight: 300;
 }
 
-@media screen and (min-width: 322px) {
+@media screen and (min-width: 322px) and (max-width: 418px) {
   #googleMap {
     height: 300px;
     width: 290px;
