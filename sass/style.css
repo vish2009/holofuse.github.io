@@ -418,7 +418,7 @@ hr {
     display: block;
     float: left;
     margin-top: 5px;
-    margin-left: 23%;
+    margin-left: 10%;
   }
 }
 
@@ -468,6 +468,59 @@ hr {
 .map_header {
   font-family: haveltica;
   font-weight: 300;
+}
+
+@media screen and (min-width: 322px) {
+  #googleMap {
+    height: 300px;
+    width: 290px;
+    margin-left: 10px;
+  }
+  .form-control {
+    width: 260px;
+  }
+  .map_header {
+    float: left;
+    font-size: 40px;
+  }
+  .section-header {
+    font-size: 40px;
+  }
+  .send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 260px;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  .send-text {
+    display: block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 26%;
+  }
+  .social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 6px 3px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #1b1b1b;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  .social-media-list {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .img-area {
